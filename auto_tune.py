@@ -10,7 +10,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
-log = logging.getLogger("halal-bot.autotune")
+log = logging.getLogger("halal-bot.autotune")  
 
 MIN_CLOSED = 20
 SCORE_MIN = 84
